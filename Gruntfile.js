@@ -5,6 +5,10 @@ module.exports = function(grunt) {
         files: [
           {
             src: [
+              'bower_components/angular/angular.js',
+              'bower_components/angular-touch/angular-touch.js',
+              'bower_components/hammerjs/hammer.js',
+              'bower_components/angular-gestures/gestures.js',
               'src/**/*.js'
             ],
             dest: 'www/js/index.js'
