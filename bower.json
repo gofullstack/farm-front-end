@@ -1,0 +1,22 @@
+{
+  "name": "crop-client",
+  "version": "0.0.0",
+  "authors": [
+    "Brian Cobb <bcobb@uwalumni.com>"
+  ],
+  "description": "Crops!",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-touch": "~1.2.10",
+    "angular": "~1.2.10",
+    "angular-gestures": "~0.2.1"
+  }
+}
